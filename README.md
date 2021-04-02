@@ -1,4 +1,4 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+d# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
 
 [Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
@@ -20,7 +20,8 @@ When installing the theme using RubyGems, demo images, posts, and pages are not 
 2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
 3. Install the theme (run the command inside your site directory): `bundle install`
 4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
-5. Build your site: `bundle exec jekyll serve`
+5. Add webrick to project: `bundle add webrick`   
+6. Build your site: `bundle exec jekyll serve`
 
 Assuming there are no errors and the site is building properly, follow these steps next:
 
